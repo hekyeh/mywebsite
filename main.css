@@ -1,0 +1,30 @@
+span {
+	font-family: cursive;
+    font-size: 30pt;
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; }
+html { font-size:100%; } 
+/* Social Media Icons
+----------------------------------------------- */
+a.socialIcons {
+margin-right: 5px; /* Increase the number to increase the space between the icons */
+}
+
+a.socialIcons:hover {
+opacity: .8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.centered {
+    text-align: center;
+}
